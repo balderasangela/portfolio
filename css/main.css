@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Seymour+One&display=swap');
+
+/* Universal */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+
+}
+
+h1{
+  font-family: 'Seymour One', sans-serif;
+  color:rgb(250, 250, 250);
+  font-size: 150px;
+}
+
+h2{
+ font-family: 'Seymour One', sans-serif;
+ color:rgb(250, 250, 250);
+ font-size: 60px;
+text-align: center;
+
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(189, 198, 198);
+}
+
+.container{
+  height: auto;
+  
+}
+
+/* Navbar */
+.navbar{
+  border-bottom: 1px solid rgb(255, 255, 255);
+  position: sticky;
+   top: 0;
+   z-index: 2;
+   background-color: rgb(0, 0, 0);
+}
+
+.navbar img{
+  padding:0px;
+  margin: 0 auto;
+}
+
+/* Home container */
+.container-fluid {
+  height:720px;
+margin-bottom: 40px;
+}
+
+.home-image{
+  height: 550px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -160px;
+}
+
+
+
+/* about container */
+.about-container{
+ margin-top: 150px;
+ padding: 20px;
+ margin-bottom: 40px;
+}
+
+.about-image{
+  height:400px ;
+  width: 400px ;
+  
+}
+
+.home h1{
+  font-family: 'Seymour One', sans-serif;
+  color:aliceblue
+}
+
+/* skill container */
+.progress{
+  margin-top: 5px;
+  margin-bottom: 25px;
+  height: 25px;
+  color: black;
+  font-family:'Roboto', sans-serif ;
+  font-size: 15px;
+  
+}
+.progress-bar{
+  color: black;
+}
+.html{
+  background-color: rgb(255, 0, 0);
+}
+
+.css{
+  background-color: orange;
+}
+
+.javascript{
+  background-color: yellow;
+}
+
+.python{
+  background-color: rgb(149, 216, 81);
+}
+
+.adobe{
+  background-color: rgb(2, 185, 2);
+}
+
+.microsoft{
+  background-color: rgb(47, 117, 246);
+}
+
+.git{
+  background-color: rgb(38, 14, 200);
+}
+
+.journalism{
+  background-color: blueviolet;
+}
