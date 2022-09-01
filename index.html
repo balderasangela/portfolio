@@ -9,12 +9,14 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/main.css">
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Seymour+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/54909cdd9c.js" crossorigin="anonymous"></script>
+
   <title>Angela Balderas Portfolio</title>
 </head>
 
@@ -50,45 +52,82 @@
 
 <body>
 
-  <!-- Home section begins here -->
-  <main>
-    <div class="container-fluid">
-      <div id="home-section">
-        <div class="header row align-items-center">
-          <div class="col-12">
+  
+  <div class="particle-container">
+    <div class="container">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="border"></div>
+      <div class="border"></div>
+    </div>
 
-            <div class="home-body">
-              <div id="drawing">
-                <img class="home-image" src="images/300984084_815406049897629_5638789999607542361_n.jpg"
-                  alt="a drawing of me" />
+    <svg>
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+          <feColorMatrix in="name" mode="matrix" values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 1 2 18 -7" />
+
+          <feBlend in="SourceGraphic" />
+        </filter>
+      </defs>
+    </svg>
+
+
+    <!-- Home section begins here -->
+    <main>
+      <div class="container-fluid">
+        <div id="home-section">
+          <div class="header row align-items-center">
+            <div class="col-12">
+
+              <div class="home-body">
+
+                <h1 class="main bold text-center">
+                  HI
+                </h1>
+                <h2 class="bold bold text-center">
+                  My Name is Angela Balderas
+                </h2>
               </div>
-              <h1 class="main bold text-center">
-                HI
-              </h1>
-              <h2 class="bold bold text-center">
-                My Name is Angela Balderas
-              </h2>
             </div>
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
 
 
 
-    <!-- end of contact section -->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   </main>
 </body>
 
