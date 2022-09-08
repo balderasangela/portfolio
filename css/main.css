@@ -38,6 +38,7 @@ p {
   color: rgb(189, 198, 198);
   width: auto;
   margin-top: 5px;
+  font-size: 20px;
 }
 
 .container {
@@ -49,7 +50,7 @@ p {
 /* particles */
 
 .particle-container {
-  height: 580px;
+  height: 900px;
   width: 100%;
   overflow: hidden;
   position: flex;
@@ -251,7 +252,7 @@ p {
   top: 0;
   z-index: 2;
   background-color: rgb(0, 0, 0);
-
+font-size: 30px;
 }
 
 
