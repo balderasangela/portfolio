@@ -251,6 +251,7 @@ p {
   top: 0;
   z-index: 2;
   background-color: rgb(0, 0, 0);
+  width:100%;
 
 }
 
@@ -271,7 +272,8 @@ p {
 
 
 .about-container {
-
+  height:auto;
+  width:100%;
   padding: 20px;
   margin-bottom: 0px;
 }
